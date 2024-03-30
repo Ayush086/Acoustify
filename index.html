@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+            <button class="menu-btn" id="menu-close">
+                <i class='bx bx-log-out-circle'></i>
+            </button>
+          <a href="#">Acoustify</a>
+        </div>
+
+        <div class="menu">
+          <h5>Menu</h5>
+          <ul>
+            <li>
+              <i class="bx bxs-bolt"></i>
+              <a href="#">Explore</a>
+            </li>
+            <li>
+              <i class="bx bx-volume-full"></i>
+              <a href="#">Genres</a>
+            </li>
+            <li>
+              <i class="bx bx-album"></i>
+              <a href="#">Albums</a>
+            </li>
+            <li>
+              <i class="bx bx-microphone"></i>
+              <a href="#">Artists</a>
+            </li>
+            <li>
+              <i class="bx bx-radio"></i>
+              <a href="#">Podcasts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <h5>Library</h5>
+          <ul>
+            <li>
+              <i class="bx bx-undo"></i>
+              <a href="#">Recent</a>
+            </li>
+            <li>
+              <i class="bx bx-photo-album"></i>
+              <a href="#">Albums</a>
+            </li>
+            <li>
+              <i class="bx bx-heart"></i>
+              <a href="#">Favourites</a>
+            </li>
+            <li>
+              <i class="bx bx-folder"></i>
+              <a href="#">Local</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <h5>Playlist</h5>
+          <ul>
+            <li>
+              <i class="bx bx-list-plus"></i>
+              <a href="#">Create New</a>
+            </li>
+            <li>
+              <i class="bx bx-caret-right-circle"></i>
+              <a href="#">Best of 2023</a>
+            </li>
+            <li>
+              <i class="bx bx-caret-right-circle"></i>
+              <a href="#">Best of 2022</a>
+            </li>
+            <li>
+              <i class="bx bx-caret-right-circle"></i>
+              <a href="#">Neffex</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="playing">
+          <div class="top">
+            <img src="../Music Player/assets/profilePic.jpeg" />
+            <h4>
+              Apple <br />
+              Homepod
+            </h4>
+          </div>
+          <div class="bottom">
+            <i class="bx bx-podcast"></i>
+            <p>Playing On Device</p>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <header>
+          <div class="nav-links">
+            <button class="menu-btn" id="menu-open">
+                <i class='bx bx-menu' ></i>
+            </button>
+            <a href="#">Music</a>
+            <a href="#">Live</a>
+            <a href="#">Podcast</a>
+          </div>
+
+          <div class="search">
+            <i class="bx bx-search-alt"></i>
+            <input type="text" placeholder="search here" />
+          </div>
+        </header>
+
+        <div class="trending">
+          <div class="left">
+            <h5>Trending Songs</h5>
+            <div class="info">
+              <h2>Memories</h2>
+              <h4>Sugar</h4>
+              <h5>1.3 billion plays</h5>
+              <div class="buttons">
+                <button>Listen Now</button>
+                <i class="bx bxs-heart"></i>
+              </div>
+            </div>
+          </div>
+          <img src="../Music Player/assets/trend.png" alt="" srcset="" />
+        </div>
+
+        <div class="playlist">
+          <div class="genres">
+            <div class="header">
+              <h5>Genres</h5>
+              <a href="#">See all</a>
+            </div>
+
+            <div class="items">
+              <div class="item">
+                <p>Electro <br />Pro</p>
+              </div>
+              <div class="item">
+                <p>Dance <br />Beat</p>
+              </div>
+              <div class="item">
+                <p>Clubhouse <br />Remix</p>
+              </div>
+              <div class="item">
+                <p>Hip Hop <br />Rap</p>
+              </div>
+              <div class="item">
+                <p>Alternative <br />Indie</p>
+              </div>
+              <div class="item">
+                <p>Classical <br />Period</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-list">
+            <div class="header">
+              <h5>Top Songs</h5>
+              <a href="#">See all</a>
+            </div>
+
+            <div class="items">
+              <div class="item">
+                <div class="info">
+                  <p>01</p>
+                  <img src="../Music Player/assets/music1.jpg" alt="song-1" />
+                  <div class="details">
+                    <h5>Sunrise</h5>
+                    <p>Lila Rivera</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>03:45</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bx-list-plus"></i>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="info">
+                  <p>02</p>
+                  <img src="../Music Player/assets/song2.jpg" alt="song-1" />
+                  <div class="details">
+                    <h5>Save Me</h5>
+                    <p>Tyde Brennan</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>04:35</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bx-list-plus"></i>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="info">
+                  <p>03</p>
+                  <img src="../Music Player/assets/song3.jpeg" alt="song-1" />
+                  <div class="details">
+                    <h5>Happier</h5>
+                    <p>Marshmello</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>04:16</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bx-list-plus"></i>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="info">
+                  <p>04</p>
+                  <img src="../Music Player/assets/song4.jpg" alt="song-1" />
+                  <div class="details">
+                    <h5>Heat Waves</h5>
+                    <p>Alan Walker</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>04:00</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bx-list-plus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="right-section">
+        <div class="profile">
+          <i class="bx bxs-bell"></i>
+          <i class="bx bx-cog"></i>
+          <div class="user">
+            <div class="left">
+              <img src="../Music Player/assets/profilePic.jpeg" />
+            </div>
+            <div class="right">
+              <h5>Jhon Doe</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-player">
+          <div class="top-section">
+            <div class="header">
+              <h5>Player</h5>
+              <i class="bx bxs-playlist"></i>
+            </div>
+            <div class="song-info">
+              <img src="../Music Player/assets/musicPlayer.jpg" alt="" />
+              <div class="description">
+                <h3>Ripple Echoes</h3>
+                <h5>Kael Fischer</h5>
+                <p>Best of 2024</p>
+              </div>
+              <div class="progress">
+                <p>02:56</p>
+                <div class="active-line"></div>
+                <div class="deactive-line"></div>
+                <p>01:23</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="player-actions">
+            <div class="buttons">
+                <i class='bx bx-repeat bx-flip-vertical' ></i>
+                <i class='bx bx-first-page'></i>
+                <i class='bx bxs-right-arrow play-button'></i>
+                <i class='bx bx-last-page'></i>
+                <i class='bx bx-transfer-alt'></i>
+            </div>
+            <div class="lyrics">
+                <i class='bx bxs-chevron-up' ></i>
+                <h5>LYRICS</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
